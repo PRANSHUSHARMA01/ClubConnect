@@ -1,0 +1,3 @@
+export function LoadingScreen({ label = 'Loading club data' }: { label?: string }) { return <div className="loading-screen"><span className="loader-ring" /><span>{label}</span></div> }
+export function SkeletonCard() { return <div className="skeleton-card" aria-hidden="true"><div className="skeleton skeleton-image" /><div className="skeleton skeleton-line wide" /><div className="skeleton skeleton-line" /><div className="skeleton skeleton-line short" /></div> }
+export function EmptyState({ title, message }: { title: string; message: string }) { return <div className="empty-state"><span className="empty-icon">{ }</span><h3>{title}</h3><p>{message}</p></div> }

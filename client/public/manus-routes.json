@@ -1,0 +1,8 @@
+{
+  "routes": [
+    { "path": "/", "title": "ClubConnect — Home" },
+    { "path": "/events", "title": "ClubConnect — Events" },
+    { "path": "/admin/login", "title": "ClubConnect — Admin Login" },
+    { "path": "/admin", "title": "ClubConnect — Admin Dashboard" }
+  ]
+}

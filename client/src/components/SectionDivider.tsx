@@ -1,0 +1,1 @@
+export function SectionDivider() { return <svg className="section-divider" viewBox="0 0 1200 18" preserveAspectRatio="none" aria-hidden="true"><path className="divider-line" d="M0 9h420l12-6 12 12 12-6h324l12-6 12 12 12-6H1200" /></svg> }

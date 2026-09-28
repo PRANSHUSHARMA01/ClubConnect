@@ -1,0 +1,3 @@
+import { Link } from 'react-router-dom'
+import { Logo } from './Logo'
+export function Footer() { return <footer className="site-footer"><div className="container footer-grid"><div><Logo /><p className="footer-copy">A place for curious builders at ABES to learn in public, ship together and find their people.</p></div><div className="footer-links"><div><span className="eyebrow">Explore</span><Link to="/">Home</Link><Link to="/events">Events</Link></div><div><span className="eyebrow">Find us</span><span>ABES Engineering College</span><span>Ghaziabad, India</span></div></div></div><div className="container footer-bottom"><span>© 2026 CodeChef Club at ABES</span><span>Built with intent <b>✦</b></span></div></footer> }
